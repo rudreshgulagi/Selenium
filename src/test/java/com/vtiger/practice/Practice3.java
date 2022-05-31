@@ -10,8 +10,8 @@ public class Practice3 {
 	{
 	
 Reporter.log("practice", true);
-		String BROWSER=System.getproperty("BROWSER");
-	Reporter.log(BROWSER, true);
+		String browser=System.getproperty("browser");
+	Reporter.log(browser, true);
 	}
 	@Test
 	public void practice1()
