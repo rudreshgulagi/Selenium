@@ -8,7 +8,7 @@ public class Practice2 {
 	@Test
 	public void practice()
 	{
-	String browser=System.getproperty("browser");
+	String browser=System.getProperty("browser");
 	Reporter.log(browser, true);
 Reporter.log("practice", true);
 	}
